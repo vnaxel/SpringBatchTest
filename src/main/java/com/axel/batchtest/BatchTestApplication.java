@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BatchTestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BatchTestApplication.class, args);
+        System.exit(SpringApplication.exit(SpringApplication.run(BatchTestApplication.class, args)));
     }
 
 }
